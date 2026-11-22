@@ -10,21 +10,27 @@ html, body {
   background: transparent;
   overflow: hidden;
 }
-.counter {
-  width: 300px;
-  height: 80px;
+
+.crop {
+  width: 240px;
+  height: 65px;
   overflow: hidden;
+  position: relative;
   background: transparent;
 }
+
 iframe {
-  width: 300px;
-  height: 80px;
-  border: none;
+  position: absolute;
+  top: -65px;
+  left: -20px;
+  width: 320px;
+  height: 500px;
+  border: 0;
 }
 </style>
 </head>
 <body>
-<div class="counter">
+<div class="crop">
 <iframe src="https://livecounts.io/embed/youtube-live-subscriber-counter/UC866HgEAD5J0mA5laU43ZwA"></iframe>
 </div>
 </body>
